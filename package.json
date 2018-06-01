@@ -1,0 +1,29 @@
+{
+  "name": "kidlat-css",
+  "version": "0.0.1",
+  "description": "Bootstrap CSS Framwork for MYCURE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "sass ./scss/kidlat.scss ./css/kidlat.css",
+    "watch": "fswatch -0 ./scss | xargs -0 -n1 ./convert.sh",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mycure-inc/kidlat-css.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "mycure",
+    "bootstrap"
+  ],
+  "author": "Jofferson Ramirez Tiquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mycure-inc/kidlat-css/issues"
+  },
+  "homepage": "https://github.com/mycure-inc/kidlat-css#readme"
+}

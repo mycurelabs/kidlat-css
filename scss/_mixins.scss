@@ -1,0 +1,22 @@
+@mixin input-shadow {
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(160,181,191,0.66);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(160,181,191,0.66);
+  box-shadow: 0px 0px 40px 0px rgba(160,181,191,0.66);
+}
+
+@mixin main-font {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin heading-font {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin input-default {
+  // color: 
+}
+
+@mixin input-disabled {
+  border: 1px dotted gray;
+  color: gray;
+}
