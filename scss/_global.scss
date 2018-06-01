@@ -1,8 +1,7 @@
-html {
-  @include main-font;
-}
+html {}
 
 body {
+  @include main-font;
   background-color: $bg;
   height: 100%;
 }
