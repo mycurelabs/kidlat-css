@@ -14,3 +14,7 @@ h5,
 h6 {
   @include heading-font;
 }
+
+textarea {
+  min-height: 100px;
+}
