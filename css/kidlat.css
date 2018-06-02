@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f9fbfc;
   height: 100%;
 }
@@ -11,10 +11,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.form-control {
+textarea {
+  min-height: 100px;
+}
+
+.form-control,
+.custom-select,
+textarea {
   color: #282828;
   font-size: 16px;
   width: 100%;
@@ -27,7 +33,12 @@ h6 {
   transition: box-shadow 200ms;
 }
 
-.form-control:focus {
+.form-control:focus,
+.form-control:hover,
+.custom-select:focus,
+.custom-select:hover,
+textarea:focus,
+textarea:hover {
   -webkit-box-shadow: 0px 0px 40px 0px rgba(160, 181, 191, 0.66);
   -moz-box-shadow: 0px 0px 40px 0px rgba(160, 181, 191, 0.66);
   box-shadow: 0px 0px 40px 0px rgba(160, 181, 191, 0.66);
@@ -47,14 +58,27 @@ h6 {
 }
 
 .btn.btn-primary {
-  background-color: #7fad33;
-  border: 1px solid #7fad33;
+  background-color: #0099cc;
+  border: 1px solid #0099cc;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus {
+  background-color: #0099cc !important;
+  border: 1px solid #0099cc !important;
+  box-shadow: none !important;
+}
+
+.btn.btn-accent {
+  background-color: #7fad33;
+  border: 1px solid #7fad33;
+  color: white;
+}
+
+.btn-accent:active, .btn-accent:focus, .btn-accent:active:focus, .btn-accent.active:focus {
   background-color: #7fad33 !important;
   border: 1px solid #7fad33 !important;
   box-shadow: none !important;
+  color: white;
 }
 
 .btn.btn-secondary {
