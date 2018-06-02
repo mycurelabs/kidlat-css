@@ -1,4 +1,6 @@
-.form-control {
+.form-control, 
+.custom-select, 
+textarea {
   color: $input-color-default;
   font-size: $text-m;
   width: 100%;
@@ -10,7 +12,12 @@
   transition: box-shadow 200ms;
 }
 
-.form-control:focus {
+.form-control:focus, 
+.form-control:hover, 
+.custom-select:focus, 
+.custom-select:hover,
+textarea:focus,
+textarea:hover {
   @include input-shadow;
   background-color: white;
   border: none;
@@ -36,6 +43,19 @@
   background-color: $primary !important;
   border: 1px solid $primary !important;
   box-shadow: none !important;
+}
+
+.btn.btn-accent {
+  background-color: $accent;
+  border: 1px solid $accent;
+  color: white;
+}
+
+.btn-accent:active, .btn-accent:focus, .btn-accent:active:focus, .btn-accent.active:focus {
+  background-color: $accent !important;
+  border: 1px solid $accent !important;
+  box-shadow: none !important;
+  color: white;
 }
 
 .btn.btn-secondary {
