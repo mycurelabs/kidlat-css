@@ -39,6 +39,26 @@ textarea {
   min-height: 100px;
 }
 
+.color-primary {
+  color: #0099cc;
+}
+
+.color-accent {
+  color: #7fad33;
+}
+
+.color-secondary {
+  color: #e6ecef;
+}
+
+.color-error {
+  color: #ff6666;
+}
+
+.color-success {
+  color: #7fad33;
+}
+
 .form-control,
 .custom-select,
 textarea {
@@ -141,6 +161,71 @@ textarea:hover {
   color: white !important;
 }
 
+.btn.btn-outline-primary {
+  border: 1px solid #0099cc;
+  color: #0099cc;
+}
+
+.btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus,
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:hover:focus, .btn-outline-primary.hover:focus {
+  background-color: #0099cc !important;
+  border: 1px solid #0099cc !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-accent {
+  border: 1px solid #7fad33;
+  color: #7fad33;
+}
+
+.btn-outline-accent:active, .btn-outline-accent:focus, .btn-outline-accent:active:focus, .btn-outline-accent.active:focus,
+.btn-outline-accent:hover, .btn-outline-accent:focus, .btn-outline-accent:hover:focus, .btn-outline-accent.hover:focus {
+  background-color: #7fad33 !important;
+  border: 1px solid #7fad33 !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-secondary {
+  border: 1px solid #e6ecef;
+  color: #e6ecef;
+}
+
+.btn-outline-secondary:active, .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus,
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:hover:focus, .btn-outline-secondary.hover:focus {
+  background-color: #e6ecef !important;
+  border: 1px solid #e6ecef !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-error {
+  border: 1px solid #ff6666;
+  color: #ff6666;
+}
+
+.btn-outline-error:active, .btn-outline-error:focus, .btn-outline-error:active:focus, .btn-outline-error.active:focus,
+.btn-outline-error:hover, .btn-outline-error:focus, .btn-outline-error:hover:focus, .btn-outline-error.hover:focus {
+  background-color: #ff6666 !important;
+  border: 1px solid #ff6666 !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-success {
+  border: 1px solid #7fad33;
+  color: #7fad33;
+}
+
+.btn-outline-success:active, .btn-outline-success:focus, .btn-outline-success:active:focus, .btn-outline-success.active:focus,
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:hover:focus, .btn-outline-success.hover:focus {
+  background-color: #7fad33 !important;
+  border: 1px solid #7fad33 !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
 .btn.btn-disabled {
   background-color: #e6ecef;
   border: 1px solid #e6ecef;
@@ -149,16 +234,6 @@ textarea:hover {
 
 .btn.btn-disabled:hover {
   cursor: not-allowed;
-}
-
-.btn.btn-joff {
-  background-color: #7fad33;
-  border: 1px solid #7fad33;
-  color: #929698;
-}
-
-.btn.btn-joff:hover {
-  cursor: help;
 }
 
 .navbar.bg-primary {
