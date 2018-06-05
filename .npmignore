@@ -1,2 +1,7 @@
-*
-!css
+scss/**/*
+images
+.gitignore
+convert.sh
+css.map
+index.html
+yarn-error.log
