@@ -13,8 +13,8 @@ textarea {
 }
 
 .form-control:focus, 
-.form-control:hover, 
-.custom-select:focus, 
+.form-control:hover,
+.custom-select:focus,
 .custom-select:hover,
 textarea:focus,
 textarea:hover {
@@ -97,6 +97,71 @@ textarea:hover {
   color: white !important;
 }
 
+.btn.btn-outline-primary {
+  border: 1px solid $primary;
+  color: $primary;
+}
+
+.btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus,
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:hover:focus, .btn-outline-primary.hover:focus {
+  background-color: $primary !important;
+  border: 1px solid $primary !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-accent {
+  border: 1px solid $accent;
+  color: $accent;
+}
+
+.btn-outline-accent:active, .btn-outline-accent:focus, .btn-outline-accent:active:focus, .btn-outline-accent.active:focus,
+.btn-outline-accent:hover, .btn-outline-accent:focus, .btn-outline-accent:hover:focus, .btn-outline-accent.hover:focus {
+  background-color: $accent !important;
+  border: 1px solid $accent !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-secondary {
+  border: 1px solid $secondary;
+  color: $secondary;
+}
+
+.btn-outline-secondary:active, .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus,
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:hover:focus, .btn-outline-secondary.hover:focus {
+  background-color: $secondary !important;
+  border: 1px solid $secondary !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-error {
+  border: 1px solid $error;
+  color: $error;
+}
+
+.btn-outline-error:active, .btn-outline-error:focus, .btn-outline-error:active:focus, .btn-outline-error.active:focus,
+.btn-outline-error:hover, .btn-outline-error:focus, .btn-outline-error:hover:focus, .btn-outline-error.hover:focus {
+  background-color: $error !important;
+  border: 1px solid $error !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn.btn-outline-success {
+  border: 1px solid $success;
+  color: $success;
+}
+
+.btn-outline-success:active, .btn-outline-success:focus, .btn-outline-success:active:focus, .btn-outline-success.active:focus,
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:hover:focus, .btn-outline-success.hover:focus {
+  background-color: $success !important;
+  border: 1px solid $success !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
 .btn.btn-disabled {
   background-color: $secondary;
   border: 1px solid $secondary;
@@ -105,16 +170,6 @@ textarea:hover {
 
 .btn.btn-disabled:hover {
   cursor: not-allowed;
-}
-
-.btn.btn-joff {
-  background-color: $success;
-  border: 1px solid $success;
-  color: $input-color-active;
-}
-
-.btn.btn-joff:hover {
-  cursor: help;
 }
 
 .navbar.bg-primary {
