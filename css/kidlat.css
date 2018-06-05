@@ -14,6 +14,14 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
 textarea {
   min-height: 100px;
 }
