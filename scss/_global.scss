@@ -39,3 +39,23 @@ h2 {
 textarea {
   min-height: 100px;
 }
+
+.color-primary {
+  color: $primary;
+}
+
+.color-accent {
+  color: $accent;
+}
+
+.color-secondary {
+  color: $secondary;
+}
+
+.color-error {
+  color: $error;
+}
+
+.color-success {
+  color: $success;
+}
