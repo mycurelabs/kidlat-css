@@ -5,6 +5,19 @@ body {
   height: 100%;
 }
 
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #0099cc;
+  font-size: 16px;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: underline !important;
+}
+
 h1,
 h2,
 h3,
