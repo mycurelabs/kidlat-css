@@ -107,6 +107,44 @@ textarea:hover {
   cursor: not-allowed;
 }
 
+.btn.btn-joff {
+  background-color: $success;
+  border: 1px solid $success;
+  color: $input-color-active;
+}
+
+.btn.btn-joff:hover {
+  cursor: help;
+}
+
+.navbar.bg-primary {
+  background-color: $primary !important;
+}
+
+.navbar.bg-accent {
+  background-color: $accent !important;
+}
+
+.navbar.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.navbar.bg-error {
+  background-color: $error !important;
+}
+
+.navbar.bg-success {
+  background-color: $success !important;
+}
+
+.navbar.bg-transparent-light {
+  background-color: $transparent-light !important;
+}
+
+.navbar.bg-transparent-dark {
+  background-color: $transparent-dark !important;
+}
+
 // .btn-success:active, .btn-success:focus, .btn-success:active:focus, .btn-success.active:focus {
 //   background-color: $success !important;
 //   border: 1px solid $success !important;
