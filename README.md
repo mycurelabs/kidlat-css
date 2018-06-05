@@ -1,6 +1,24 @@
 # Kidlat CSS
 Bootstrap theme for MYCURE
 
+**Install**
+
+CDN - `https://unpkg.com/kidlat-css/css/kidlat.css`;
+
+NPM - `npm install kidlat-css`;
+
+Yarn - `yarn add kidlat-css`;
+
+**Usage**
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/kidlat-css/css/kidlat.css">
+```
+
+```javascript
+import 'kidlat-css/css/kidlat.css';
+```
+
 **Demo**
 
 [Demo](https://mycure-inc.github.io/kidlat-css/)
