@@ -16,6 +16,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
+  color: $primary;
   text-decoration: underline !important;
 }
 
