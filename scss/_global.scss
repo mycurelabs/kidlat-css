@@ -15,6 +15,14 @@ h6 {
   @include heading-font;
 }
 
+h1 {
+  font-size: $text-xl;
+}
+
+h2 { 
+  font-size: $text-l;
+}
+
 textarea {
   min-height: 100px;
 }
