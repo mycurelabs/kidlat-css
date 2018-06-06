@@ -61,6 +61,30 @@ textarea {
   color: #7fad33;
 }
 
+.bg-primary {
+  background-color: #0099cc;
+}
+
+.bg-accent {
+  background-color: #7fad33;
+}
+
+.bg-secondary {
+  background-color: #e6ecef;
+}
+
+.bg-error {
+  background-color: #ff6666;
+}
+
+.bg-success {
+  background-color: #7fad33;
+}
+
+.bg-dark {
+  background-color: #282828;
+}
+
 .form-control,
 .custom-select,
 textarea {
