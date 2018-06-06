@@ -27,6 +27,7 @@ h4,
 h5,
 h6 {
   @include heading-font;
+  font-weight: bold;
 }
 
 h1 {
