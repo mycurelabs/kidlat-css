@@ -42,6 +42,7 @@ textarea {
   min-height: 100px;
 }
 
+// TEXT COLOR
 .color-primary {
   color: $primary;
 }
@@ -60,4 +61,29 @@ textarea {
 
 .color-success {
   color: $success;
+}
+
+// BG COLOR
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-accent {
+  background-color: $accent;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-error {
+  background-color: $error;
+}
+
+.bg-success {
+  background-color: $success;
+}
+
+.bg-dark {
+  background-color: $default;
 }
