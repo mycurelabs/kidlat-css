@@ -1,6 +1,6 @@
 {
   "name": "kidlat-css",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Bootstrap CSS Framwork for MYCURE.",
   "main": "index.js",
   "scripts": {
