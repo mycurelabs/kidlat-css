@@ -65,6 +65,10 @@ textarea {
   color: #414141;
 }
 
+.color-white {
+  color: white;
+}
+
 .bg-primary {
   background-color: #0099cc;
 }
@@ -87,6 +91,7 @@ textarea {
 
 .bg-dark {
   background-color: #414141;
+  color: white;
 }
 
 .form-control,
