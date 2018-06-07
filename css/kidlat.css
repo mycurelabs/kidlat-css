@@ -61,6 +61,10 @@ textarea {
   color: #7fad33;
 }
 
+.color-dark {
+  color: #414141;
+}
+
 .bg-primary {
   background-color: #0099cc;
 }
@@ -82,7 +86,7 @@ textarea {
 }
 
 .bg-dark {
-  background-color: #282828;
+  background-color: #414141;
 }
 
 .form-control,
@@ -112,6 +116,15 @@ textarea:hover {
   background-color: white;
   border: none;
   outline: none;
+}
+
+.form-control.form-control-dark {
+  background-color: #616161 !important;
+  color: white;
+}
+
+.form-control.form-control-dark::placeholder {
+  color: #F0F0F2;
 }
 
 .btn {
@@ -280,6 +293,10 @@ textarea:hover {
 
 .navbar.bg-success {
   background-color: #7fad33 !important;
+}
+
+.navbar.bg-transparent {
+  background-color: transparent !important;
 }
 
 .navbar.bg-transparent-light {
