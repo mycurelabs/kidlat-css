@@ -63,6 +63,10 @@ textarea {
   color: $success;
 }
 
+.color-dark {
+  color: $dark;
+}
+
 // BG COLOR
 .bg-primary {
   background-color: $primary;
@@ -85,5 +89,5 @@ textarea {
 }
 
 .bg-dark {
-  background-color: $default;
+  background-color: $dark;
 }
