@@ -67,6 +67,10 @@ textarea {
   color: $dark;
 }
 
+.color-white {
+  color: white;
+}
+
 // BG COLOR
 .bg-primary {
   background-color: $primary;
@@ -90,4 +94,5 @@ textarea {
 
 .bg-dark {
   background-color: $dark;
+  color: white;
 }
