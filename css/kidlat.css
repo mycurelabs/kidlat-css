@@ -94,6 +94,11 @@ textarea {
   color: white;
 }
 
+.list {
+  padding: 0;
+  list-style-type: none;
+}
+
 .form-control,
 .custom-select,
 textarea {
