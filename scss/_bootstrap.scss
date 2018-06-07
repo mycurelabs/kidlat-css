@@ -24,6 +24,15 @@ textarea:hover {
   outline: none;
 }
 
+.form-control.form-control-dark {
+  background-color: $grey !important;
+  color: white;
+}
+
+.form-control.form-control-dark::placeholder {
+  color: #F0F0F2;
+}
+
 .btn {
   font-size: $text-m;
   border-radius: 5px;
@@ -190,6 +199,10 @@ textarea:hover {
 
 .navbar.bg-success {
   background-color: $success !important;
+}
+
+.navbar.bg-transparent {
+  background-color: transparent !important;
 }
 
 .navbar.bg-transparent-light {
