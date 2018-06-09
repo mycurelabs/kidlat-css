@@ -229,6 +229,7 @@ textarea:hover {
 .btn.btn-outline-primary {
   border: 1px solid #0099cc;
   color: #0099cc;
+  background-color: white;
 }
 
 .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus,
@@ -242,6 +243,7 @@ textarea:hover {
 .btn.btn-outline-accent {
   border: 1px solid #7fad33;
   color: #7fad33;
+  background-color: white;
 }
 
 .btn-outline-accent:active, .btn-outline-accent:focus, .btn-outline-accent:active:focus, .btn-outline-accent.active:focus,
@@ -255,6 +257,7 @@ textarea:hover {
 .btn.btn-outline-secondary {
   border: 1px solid #e6ecef;
   color: #e6ecef;
+  background-color: white;
 }
 
 .btn-outline-secondary:active, .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus,
@@ -268,6 +271,7 @@ textarea:hover {
 .btn.btn-outline-error {
   border: 1px solid #ff6666;
   color: #ff6666;
+  background-color: white;
 }
 
 .btn-outline-error:active, .btn-outline-error:focus, .btn-outline-error:active:focus, .btn-outline-error.active:focus,
@@ -281,6 +285,7 @@ textarea:hover {
 .btn.btn-outline-success {
   border: 1px solid #7fad33;
   color: #7fad33;
+  background-color: white;
 }
 
 .btn-outline-success:active, .btn-outline-success:focus, .btn-outline-success:active:focus, .btn-outline-success.active:focus,
