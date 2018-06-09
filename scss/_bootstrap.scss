@@ -110,6 +110,7 @@ textarea:hover {
 .btn.btn-outline-primary {
   border: 1px solid $primary;
   color: $primary;
+  background-color: white;
 }
 
 .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus,
@@ -123,6 +124,7 @@ textarea:hover {
 .btn.btn-outline-accent {
   border: 1px solid $accent;
   color: $accent;
+  background-color: white;
 }
 
 .btn-outline-accent:active, .btn-outline-accent:focus, .btn-outline-accent:active:focus, .btn-outline-accent.active:focus,
@@ -136,6 +138,7 @@ textarea:hover {
 .btn.btn-outline-secondary {
   border: 1px solid $secondary;
   color: $secondary;
+  background-color: white;
 }
 
 .btn-outline-secondary:active, .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus,
@@ -149,6 +152,7 @@ textarea:hover {
 .btn.btn-outline-error {
   border: 1px solid $error;
   color: $error;
+  background-color: white;
 }
 
 .btn-outline-error:active, .btn-outline-error:focus, .btn-outline-error:active:focus, .btn-outline-error.active:focus,
@@ -162,6 +166,7 @@ textarea:hover {
 .btn.btn-outline-success {
   border: 1px solid $success;
   color: $success;
+  background-color: white;
 }
 
 .btn-outline-success:active, .btn-outline-success:focus, .btn-outline-success:active:focus, .btn-outline-success.active:focus,
