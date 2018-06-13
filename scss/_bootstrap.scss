@@ -187,6 +187,10 @@ textarea:hover {
   cursor: not-allowed;
 }
 
+.navbar-nav li a {
+  font-size: 12px;
+}
+
 .navbar.bg-primary {
   background-color: $primary !important;
 }
