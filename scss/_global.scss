@@ -138,3 +138,32 @@ textarea {
 .shadow-5 {
   @include shadow-5;
 }
+
+// FONT
+// Weight
+.font-weight-semi-bold {
+  font-weight: 600;
+}
+
+.font-weight-semi-bold-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-bold-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-weight-extra-bold {
+  font-weight: 800;
+}
+
+.font-weight-extra-bold-italic {
+  font-weight: 800;
+  font-style: italic;
+}
