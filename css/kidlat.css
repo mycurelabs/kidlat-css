@@ -212,7 +212,6 @@ textarea:hover {
 .btn {
   font-size: 16px;
   border-radius: 5px;
-  min-width: 150px;
 }
 
 .btn:focus,
